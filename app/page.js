@@ -43,7 +43,7 @@ export default function Home() {
 </nav>
 
       {/* Hero Section */}
-<section className="flex flex-col items-center text-center py-28 px-6">
+<section className="flex flex-col items-center text-center py-20 px-6">
 
   {/* Profile Image */}
   <div className="mb-8">
@@ -87,6 +87,30 @@ export default function Home() {
 
   </div>
 
+</section>
+{/* About Section */}
+<section id="about" className="px-8 py-16 max-w-4xl mx-auto">
+  <h2 className="text-4xl font-bold mb-10 text-center tracking-tight">
+    About Me
+  </h2>
+
+  <p className="text-gray-300 leading-relaxed text-lg">
+    Results-driven Technical Trainer and Learning & Development professional
+    with over 15 years of experience in Python, Java, Data Analytics, RPA,
+    and Generative AI.
+
+    <br /><br />
+
+    I have successfully trained 500+ learners, achieving up to 100%
+    certification success rates by simplifying complex concepts into
+    practical, hands-on learning experiences.
+
+    <br /><br />
+
+    Recently, I have expanded into AI solution development, building
+    intelligent agents and analytics systems to bridge the gap between
+    learning and real-world application.
+  </p>
 </section>
 
       {/* Projects */}
